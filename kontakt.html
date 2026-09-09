@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt — Chata Javorník</title>
+  <link rel="stylesheet" href=".\node_modules\bootstrap\dist\css\bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navigace -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Chata Javorník</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Domů</a></li>
+          <li class="nav-item"><a class="nav-link" href="o-nas.html">O nás</a></li>
+          <li class="nav-item"><a class="nav-link" href="pokoje.html">Pokoje</a></li>
+          <li class="nav-item"><a class="nav-link" href="jidelnicek.html">Jídelníček</a></li>
+          <li class="nav-item"><a class="nav-link" href="recenze.html">Recenze</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="kontakt.html">Kontakt</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-outline-light btn-sm" href="kontakt.html">Rezervovat pobyt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-light py-5">
+    <div class="container py-4">
+      <h1 class="fw-bold">Domluvit pobyt</h1>
+      <p class="lead text-secondary">Napište nám termín a počet osob, do 24 hodin se ozveme s potvrzením.</p>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Jméno a příjmení</label>
+              <input type="text" class="form-control" placeholder="Jana Nováková">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">E-mail</label>
+              <input type="email" class="form-control" placeholder="jana@example.cz">
+            </div>
+            <div class="row g-3 mb-3">
+              <div class="col-6">
+                <label class="form-label">Příjezd</label>
+                <input type="date" class="form-control">
+              </div>
+              <div class="col-6">
+                <label class="form-label">Odjezd</label>
+                <input type="date" class="form-control">
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="form-label">Vzkaz</label>
+              <textarea class="form-control" rows="3" placeholder="Kolik jedete lidí a jestli berete psa"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg w-100">Odeslat poptávku</button>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <div class="ratio ratio-4x3 rounded overflow-hidden mb-4">
+            <img src="https://placehold.co/600x450" class="w-100 h-100 object-fit-cover" alt="Mapa okolí chaty">
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Adresa:</strong> Javorník 12, 756 57 Bílá</li>
+            <li class="list-group-item"><strong>Telefon:</strong> +420 725 118 402</li>
+            <li class="list-group-item"><strong>E-mail:</strong> chata@javornik-beskydy.cz</li>
+            <li class="list-group-item"><strong>Parkování:</strong> 800 m pod chatou, dál pěšky</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light-emphasis py-4">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+      <span>&copy; 2026 Chata Javorník</span>
+      <span class="small">Beskydy · Bílá · od roku 1958</span>
+    </div>
+  </footer>
+
+  <script src=".\node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+</body>
+</html>

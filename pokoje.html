@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokoje — Chata Javorník</title>
+  <link rel="stylesheet" href=".\node_modules\bootstrap\dist\css\bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navigace -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Chata Javorník</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Domů</a></li>
+          <li class="nav-item"><a class="nav-link" href="o-nas.html">O nás</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="pokoje.html">Pokoje</a></li>
+          <li class="nav-item"><a class="nav-link" href="jidelnicek.html">Jídelníček</a></li>
+          <li class="nav-item"><a class="nav-link" href="recenze.html">Recenze</a></li>
+          <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-outline-light btn-sm" href="kontakt.html">Rezervovat pobyt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-light py-5">
+    <div class="container py-4">
+      <h1 class="fw-bold">Kde budete spát</h1>
+      <p class="lead text-secondary">Od jednoduché noclehárny pro turisty po pokoj s vlastní koupelnou a výhledem na hřeben.</p>
+    </div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://placehold.co/400x260" class="card-img-top" alt="Turistická noclehárna">
+            <div class="card-body">
+              <h5 class="card-title">Turistická noclehárna</h5>
+              <p class="card-text text-secondary">Patrové postele, sdílená koupelna na chodbě, pro 4 až 6 osob.</p>
+            </div>
+            <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+              <span class="fw-bold">350 Kč / noc</span>
+              <a href="kontakt.html" class="btn btn-sm btn-outline-primary">Vybrat</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-primary">
+            <div class="card-header bg-primary text-white text-center">Nejoblíbenější</div>
+            <img src="https://placehold.co/400x260" class="card-img-top" alt="Dvoulůžkový pokoj">
+            <div class="card-body">
+              <h5 class="card-title">Dvoulůžkový pokoj</h5>
+              <p class="card-text text-secondary">Vlastní koupelna, dřevěný nábytek, okno směrem do údolí.</p>
+            </div>
+            <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+              <span class="fw-bold">890 Kč / noc</span>
+              <a href="kontakt.html" class="btn btn-sm btn-primary">Vybrat</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://placehold.co/400x260" class="card-img-top" alt="Rodinný pokoj">
+            <div class="card-body">
+              <h5 class="card-title">Rodinný pokoj</h5>
+              <p class="card-text text-secondary">Pro 2 dospělé a 2 děti, přistýlka a výhled na hřebenovku.</p>
+            </div>
+            <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+              <span class="fw-bold">1 190 Kč / noc</span>
+              <a href="kontakt.html" class="btn btn-sm btn-outline-primary">Vybrat</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-8">
+          <h2 class="h4 fw-bold mb-3">Co mají všechny pokoje společné</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Prošívané peřiny a vlněné deky</li>
+            <li class="list-group-item">Snídani v ceně pobytu</li>
+            <li class="list-group-item">Sušárnu na mokré vybavení hned u vchodu</li>
+            <li class="list-group-item">Uzamykatelnou lyžárnu / kolárnu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light-emphasis py-4">
+    <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+      <span>&copy; 2026 Chata Javorník</span>
+      <span class="small">Beskydy · Bílá · od roku 1958</span>
+    </div>
+  </footer>
+
+  <script src=".\node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -15,4 +15,4 @@ Bolí mě z toho záda a krční páteř lol. doufám že škola má pojistku...
 
 velice náročný projekt, hodnotím:
 
-__tři Filipové Turci z šedesáti osmy babišu.__
+__tři Filipové Turci z šedesáti osmy babišů.__
